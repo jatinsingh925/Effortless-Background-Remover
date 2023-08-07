@@ -6,9 +6,7 @@ function removeBackground() {
     fetch("https://api.remove.bg/v1.0/removebg", {
       method: "POST",
       headers: {
-        // "X-Api-Key": "EUxiqEScPmMNJy86Zn8EUa5o"
         "X-Api-Key": "CsTCh7ecWz36MjxqD39ZHZVb"
-        // "X-Api-Key": "8UvDuz97hr15MGsPGKfkadNS"
       },
       body: formData
     })
